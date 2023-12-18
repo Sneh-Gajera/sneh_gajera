@@ -14,6 +14,12 @@ $(document).ready(function(){
   })
 })
 
+$(document).ready(function(){
+  $(".menu li").click(function(){
+      $(".menu").removeClass("active");
+  })
+})
+
 //sticky navbar
 
 window.addEventListener('scroll', function() {
